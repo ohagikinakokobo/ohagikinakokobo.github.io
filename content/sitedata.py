@@ -3,7 +3,7 @@
 Facts come from each game's store copy (docs/store in the game repositories)."""
 
 BASE_URL = "https://ohagikinakokobo.github.io"
-ASSET_VERSION = "6"
+ASSET_VERSION = "7"
 EMAIL = "ohagikinakokobo@gmail.com"
 
 SNS = [
@@ -516,7 +516,111 @@ GAMES = [
                            ("Languages", "English, Japanese"), ("Age rating", "4+"), ("Content", "5 dogs, a daily ten, a boss question every ten"), ("Developer", "Ohagi Kinako Kobo (solo)")],
         },
     },
-    # ---------------------------------------------------------- 5 Hanko
+    # ---------------------------------------------------------- 5 HoeHoe
+    {
+        "slug": "hoehoe-chiwatai",
+        "shot_w": 480, "shot_h": 1044, "kv_h": 540,
+        "shots": {
+            "ja": [("ja-1", "大きな「おおくもり」と 5 匹の犬"), ("ja-2", "うみべのおさんぽ"), ("ja-3", "レベルアップで 3 つのわざから選ぶ"), ("ja-4", "ホーム画面"), ("ja-5", "犬を選ぶ画面")],
+            "en": [("en-1", "Big Overcast and five dogs"), ("en-2", "A walk on the beach"), ("en-3", "Level up: pick one of three skills"), ("en-4", "Home screen"), ("en-5", "Choosing a dog")],
+        },
+        "links": [
+            {"kind": "appstore", "icon": "appstore", "url": "https://apps.apple.com/jp/app/id6834265573",
+             "url_en": "https://apps.apple.com/app/id6834265573", "sub_ja": "iPhone・iPad", "sub_en": "iPhone & iPad"},
+        ],
+        "press_images": [("keyvisual.jpg", "キービジュアル / Key visual"), ("icon-1024.png", "アイコン / Icon"),
+                         ("screenshot-1.jpg", "1"), ("screenshot-2.jpg", "2"), ("screenshot-3.jpg", "3"),
+                         ("screenshot-4.jpg", "4"), ("screenshot-5.jpg", "5")],
+        "ja": {
+            "name": "ほえほえチワ隊",
+            "subtitle": "チワワたちが吠えるかわいいサバイバー",
+            "card": "まちの空をおおう「もやもや」を犬たちが吠えておいはらう。5 分のおさんぽで空を晴らそう。",
+            "price": "基本無料（アプリ内課金・ガチャあり）",
+            "platforms": "iPhone・iPad",
+            "desc": "チワワのおはぎと仲間たちが吠えてまちの空の「もやもや」をおいはらうかわいいサバイバーアクション。1 回 5 分のおさんぽで空を晴らします。",
+            "lead": "ある朝、まちの空が「もやもや」でいっぱいになりました。\n\nチワワのおはぎと仲間たちが「ワン！」と吠えてもやもやをおいはらいます。指で動かすだけで吠えるのは自動。レベルアップのたびにわざを選んで強くなり、5 分歩ききれば空が晴れます。",
+            "kv_alt": "吠える輪の中の犬たちと右から寄ってくる白いもやもやの群れ",
+            "facts": [("値段", "基本無料（アプリ内課金・ガチャあり）"), ("機種", "iPhone・iPad（縦向き）"), ("言語", "日本語・英語"), ("年齢", "9+")],
+            "features": [
+                {"t": "吠えておいはらう", "d": "指でさわって動かすだけ。吠えるのは自動です。もやもやが晴れると残る「ほねっこ」を拾ってレベルアップ。"},
+                {"t": "3 つから選ぶわざ", "d": "レベルアップのたびに 3 つのわざから 1 つ。吠える輪・フリスビー・しゃぼん玉・ふうせんなど 30 以上あり、Lv5 と Lv10 で姿が変わります。"},
+                {"t": "みんなでワン！", "d": "おさんぽの途中で仲間の犬が加わります。声をそろえた「みんなで」の大わざも。"},
+                {"t": "6 章 30 コース", "d": "こうえん・かわら・うみべなどを絵本のようなお話と一緒に。空が晴れるまでのりきる大きな「おおくもり」や、ハードモードもあります。"},
+                {"t": "こわくないもやもや", "d": "もやもやは少しすねた顔のほこりや雲。犬は痛がらず、ぶつかっても少ししょんぼりするだけです。"},
+                {"t": "そだてる・そうび", "d": "わざを育ててそうび 24 種類で強く。犬ごとのなかよしレベル、ミッション、まいにちボーナスも。"},
+            ],
+            "howto": [
+                "画面を指でさわって犬を動かします。吠えるのは自動です。",
+                "もやもやが晴れると「ほねっこ」が残ります。拾うとレベルアップ。",
+                "レベルアップのたびに 3 つのわざから 1 つ選んで強くなります。",
+                "ハートがなくなる前に 5 分歩ききれば空が晴れてクリア！",
+            ],
+            "dogs_sub": "おはぎ以外はコースを晴らすと仲間になります。犬ごとに「とくい」と専用のわざがあります。",
+            "dogs": dogs("ja", FIVE, {"ohagi": "ききみみ：吠える範囲が少し広い。", "shiratama": "ハートが 1 つ多い（足は少しゆっくり）。", "kinako": "ふわっと：ぶつかったあとの守られる時間が長い。", "yokan": "とことこ：足が速い。", "dorayaki": "くんくん：ほねっこを遠くから集める。"}),
+            "faq": [
+                {"q": "無料で遊べますか？", "a": "はい。最後まで無料で遊べます。アプリ内課金とガチャがあります（くわしくは次の質問）。"},
+                {"q": "ガチャと課金のしくみは？", "a": "そうびガチャとわざガチャは遊んでためる「どんぐり」で引けます。とくべつガチャは「にじいし」で引きます。にじいしは買えるほか、レベルアップ・ミッション・コースのクリアでももらえます（もらった分から先に使います）。\n\nどのガチャも引く前に出る確率と「かならず出る回数」を見られます。とくべつガチャは 80 回引くと好きな星 5 と交換できます。全部そろえると特別なものが出るしくみ（コンプガチャ）とサブスクはありません。"},
+                {"q": "子どもに遊ばせても大丈夫ですか？", "a": "年齢区分は 9+ です（ガチャがあるため）。はじめて買う前に年齢をおたずねし、20 歳未満の方には月ごとの上限があります。お子さんが使う端末では iPhone の「スクリーンタイム」で購入を制限できます。"},
+                {"q": "広告はありますか？", "a": "動画広告は自分で「見る」を押したときだけです（おさんぽポイントを増やす・結果のどんぐり 2 ばい。1 日 5 回まで）。勝手に出る広告はありません。「どうがなしパス」を買うと動画を見ずにごほうびがもらえます。"},
+                {"q": "記録はどこに残りますか？", "a": "端末の中に自動でセーブされます。アプリを消すと記録も消え、買ったにじいしも戻せません。どうがなしパスはショップの「かったものを もどす」で戻せます。"},
+                {"q": "AI は使っていますか？", "a": "犬の絵は Meshy で作った 3D モデルから、絵本のページ・ガチャのバナー・アイコンは Google Gemini で作り、作者が選んで調整しました。プログラムと画面の文章は Claude Code を使って書き、作者が確認しています。遊んでいる間に AI が何かを作ることはありません。音楽（OpenTracks）と効果音（効果音ラボ・Kenney）は人が作った素材です。"},
+            ],
+            "privacy": ["開発者は名前や連絡先などの個人情報を集めません。アカウント登録もありません。ゲームの記録は端末の中だけに保存されます。",
+                        "動画広告の Google AdMob が端末の情報・おおまかな地域・端末ごとの識別子を集めることがあります。トラッキングの許可は求めないので、ほかのアプリをまたいだ追跡には使われません。",
+                        "購入は App Store のしくみで行い、お支払いの情報は開発者に届きません。年齢の答えも端末の中だけに保存します。"],
+            "privacy_url": "https://seen-owner-034.notion.site/418ab0ad1d3081eca505ebf5fadac23b",
+            "press_short": "チワワたちが吠えてまちの空の「もやもや」をおいはらうかわいいサバイバーアクション。1 回 5 分のおさんぽで空を晴らします。",
+            "press_long": "ある朝、まちの空が「もやもや」でいっぱいに。チワワのおはぎと仲間たちが吠えておいはらいます。\n指で動かすだけで吠えるのは自動。もやもやが残す「ほねっこ」を拾ってレベルアップし、3 つのわざから 1 つを選んで強くなります。5 分歩ききれば空が晴れてクリア。\nわざは 30 以上で Lv5・Lv10 で姿が変わります。途中で加わる仲間と「みんなで」の大わざ、6 章 30 コースと絵本のようなお話、ハードモード、そうび 24 種類。\nもやもやは少しすねた顔のほこりや雲で、犬は痛がりません。基本無料。ガチャは引く前に確率と「かならず出る回数」を見せ、動画広告は見たいときだけ。日本語・英語。",
+            "press_rows": [("ジャンル", "サバイバー系アクション（一人用）"), ("機種", "iPhone・iPad（iOS 15 以上）"),
+                           ("値段", "基本無料（アプリ内課金・ガチャ・見たいときだけの動画広告）"), ("公開", "2026 年 11 月 17 日（App Store）"),
+                           ("言語", "日本語・英語"), ("年齢区分", "9+"), ("数", "6 章 30 コース・犬 5 匹・わざ 30 以上・そうび 24 種類"), ("制作", "おはぎきなこ工房（個人）")],
+        },
+        "en": {
+            "name": "HoeHoe ChiwaTai",
+            "subtitle": "Cute chihuahua barking action",
+            "card": "Little dogs bark away the gloomies that cover the town's sky. Clear it on a five-minute walk.",
+            "price": "Free to play · IAP & draws",
+            "platforms": "iPhone & iPad",
+            "desc": "Ohagi the chihuahua and friends bark away the gloomies over town in a cute survivor-style action game. Clear the sky on a five-minute walk.",
+            "lead": "One morning, the town's sky filled up with \"gloomies\".\n\nOhagi the chihuahua and friends bark them away! Just touch to move; barking is automatic. Pick a new skill at every level up, and walk for five minutes to clear the sky.",
+            "kv_alt": "Dogs inside a ring of barking, with a crowd of white gloomies drifting in from the right",
+            "facts": [("Price", "Free (IAP and draws)"), ("Devices", "iPhone & iPad (portrait)"), ("Languages", "English, Japanese"), ("Age", "9+")],
+            "features": [
+                {"t": "Bark them away", "d": "Just touch to move; barking is automatic. Gloomies leave dog biscuits behind. Pick them up to level up."},
+                {"t": "Pick one of three", "d": "Each level up, choose one of three skills: bark rings, frisbees, bubbles, balloons and 30+ more. They change at levels 5 and 10."},
+                {"t": "All together: woof!", "d": "Friends join your walk, and everyone can bark together for a big move."},
+                {"t": "6 chapters, 30 courses", "d": "The park, the river, the beach and more, with a picture-book story. Hold out against Big Overcast until the sky clears, and try hard mode."},
+                {"t": "Nothing scary", "d": "Gloomies are fluffy dust and clouds with slightly pouty faces. The dogs never get hurt; they just look a little sad when bumped."},
+                {"t": "Grow and gear up", "d": "Grow your skills and stack 24 pieces of gear. Dog friendship levels, missions and a daily bonus too."},
+            ],
+            "howto": [
+                "Touch the screen to move your dog. Barking is automatic.",
+                "Cleared gloomies leave dog biscuits. Pick them up to level up.",
+                "Each level up, choose one of three skills.",
+                "Walk for five minutes before your hearts run out and the sky clears!",
+            ],
+            "dogs_sub": "Everyone except Ohagi joins as you clear courses. Each dog has a strength and a skill of its own.",
+            "dogs": dogs("en", FIVE, {"ohagi": "Keen ears: a slightly wider bark.", "shiratama": "One more heart (a little slower).", "kinako": "Fluffy: stays safe longer after a bump.", "yokan": "Trotter: quick on its feet.", "dorayaki": "Good nose: picks up biscuits from afar."}),
+            "faq": [
+                {"q": "Is it free?", "a": "Yes, you can play to the end for free. There are in-app purchases and draws (see the next question)."},
+                {"q": "How do the draws and purchases work?", "a": "Gear and Skill Draws use acorns earned by playing. Special Draws use Rainbow Gems, which you can buy or earn from level ups, missions and course clears (free gems are spent first).\n\nEvery draw shows its odds and its guaranteed draw count before you draw. 80 Special Draws let you pick any 5-star of that draw. No complete-the-set prizes, and no subscriptions."},
+                {"q": "Is it OK for children?", "a": "It's rated 9+ (because of the draws). We ask your age before your first purchase, and players under 20 have a monthly limit. On a child's device you can restrict purchases with Screen Time."},
+                {"q": "Are there ads?", "a": "Video ads only when you tap \"watch\" (more walk points, or double acorns on the results; up to five a day). No ads appear on their own. The No-Ads Pass gives the rewards without a video."},
+                {"q": "Where is my progress saved?", "a": "Automatically on your device. Deleting the app deletes it, and bought gems can't be brought back. The No-Ads Pass comes back with \"Restore purchases\" in the shop."},
+                {"q": "Do you use AI?", "a": "The dogs' pictures come from 3D models made with Meshy, and the story pages, draw banners and icon were made with Google Gemini, then chosen and adjusted by the developer. The code and in-game text were written with Claude Code and reviewed by the developer. No AI content is generated while you play. Music (OpenTracks) and sound effects (Koukaon Lab, Kenney) are human-made."},
+            ],
+            "privacy": ["The developer collects no personal information, and there are no accounts. Progress stays on your device.",
+                        "The video ad service, Google AdMob, may collect device information, an approximate region and device identifiers. The app doesn't ask for tracking permission, so this isn't used to track you across other apps.",
+                        "Purchases go through the App Store; your payment details never reach the developer. Your age answer stays on your device."],
+            "privacy_url": "https://seen-owner-034.notion.site/418ab0ad1d3081eca505ebf5fadac23b",
+            "press_short": "Little dogs bark away the gloomies over town in a cute survivor-style action game. Clear the sky on a five-minute walk.",
+            "press_long": "One morning, the town's sky filled up with gloomies, and Ohagi the chihuahua and friends bark them away.\nJust touch to move; barking is automatic. Pick up the biscuits gloomies leave behind to level up, and choose one of three skills each time. Walk for five minutes and the sky clears.\n30+ skills that change at levels 5 and 10, friends who join mid-walk and bark together, 6 chapters and 30 courses with a picture-book story, a hard mode and 24 pieces of gear.\nGloomies are fluffy, slightly pouty dust and clouds, and the dogs never get hurt. Free to play: every draw shows its odds and guaranteed count before you draw, and video ads play only when you choose. English and Japanese.",
+            "press_rows": [("Genre", "Survivor-style action (single player)"), ("Platforms", "iPhone & iPad (iOS 15+)"),
+                           ("Price", "Free to play (IAP, draws, optional video ads)"), ("Released", "17 Nov 2026 (App Store)"),
+                           ("Languages", "English, Japanese"), ("Age rating", "9+"), ("Content", "6 chapters, 30 courses, 5 dogs, 30+ skills, 24 gear"), ("Developer", "Ohagi Kinako Kobo (solo)")],
+        },
+    },
+    # ---------------------------------------------------------- 6 Hanko
     {
         "slug": "chiwa-hanko",
         "shot_w": 960, "shot_h": 540, "kv_h": 540,
@@ -628,10 +732,10 @@ GAMES = [
 # ------------------------------------------------------------------ home
 HOME = {
     "ja": {
-        "desc": "パピチワ犬「おはぎ」と仲間の犬たちが主役のやさしいゲームを作る小さな工房。チワちくRUN・くっつきチワだんご・あみあみチワおさんぽ・じりじりチワまて・チワ判子課長。",
+        "desc": "パピチワ犬「おはぎ」と仲間の犬たちが主役のやさしいゲームを作る小さな工房。チワちくRUN・くっつきチワだんご・あみあみチワおさんぽ・じりじりチワまて・ほえほえチワ隊・チワ判子課長。",
         "title_html": "ちいさな犬たちの<br>ちいさなゲーム屋さん。",
         "lead": "うちのパピチワ犬「おはぎ」と仲間の犬たちが主役のやさしいゲームを作っています。\n犬が好きな人にもお子さんと一緒に遊ぶ人にも安心して楽しんでもらえるものをひとつずつ。",
-        "tags": ["犬が主役", "4+", "アカウント登録なし", "日本語 / English"],
+        "tags": ["犬が主役", "犬が傷つかない", "アカウント登録なし", "日本語 / English"],
         "cta": "作品を見る", "cta2": "おはぎのこと",
         "kv_alt": "和菓子屋の店先で前掛けをした店主のおはぎと、遊びに来た仲間の犬たち",
         "games_sub": "おはぎと仲間の犬たちは、どの作品にも出てきます。",
@@ -642,7 +746,7 @@ HOME = {
         "promise_title": "工房のおやくそく",
         "promise_sub": "お子さんと遊ぶ人にも犬と暮らす人にも気持ちよく遊んでもらうために。",
         "promises": [
-            {"t": "安心して遊べる", "d": "どの作品も年齢区分は 4+、アカウント登録はいりません。チワちくRUN は無料で広告も課金もなし。広告のある作品も遊んでいる最中には出しません。"},
+            {"t": "安心して遊べる", "d": "どの作品もアカウント登録はいりません。チワちくRUN は無料で広告も課金もなし。広告はどの作品でも遊んでいる最中には出しません。ガチャのある作品は引く前に確率を見せ、20 歳未満の方には月ごとの上限を設けています。"},
             {"t": "犬にやさしく", "d": "犬が傷つく場面は作りません。失敗しても犬はしかられず、しょんぼりするか「てへ」と笑うだけ。ゲームのちくわは本物の犬にはあげないでね。"},
             {"t": "個人情報を集めない", "d": "名前やメールアドレスを集めることはありません。くわしくは作品ごとのプライバシーの説明をどうぞ。"},
             {"t": "AI のことも隠さない", "d": "犬の 3D モデル（Meshy）、絵の一部（Google Gemini）、プログラム（Claude Code）に AI を使い、作者が選んで確認しています。音楽は人が作った曲です。"},
@@ -651,10 +755,10 @@ HOME = {
         "sns_sub": "新作のお知らせや本物のおはぎの様子はこちらから。",
     },
     "en": {
-        "desc": "A tiny studio making gentle games starring Ohagi, a papillon-chihuahua mix, and her dog friends. Chiwa-Chiku RUN, Kuttsuki Chiwa Dango, Amiami Chiwa Osanpo, Chiwa, Stay! and Chiwa Hanko Kacho.",
+        "desc": "A tiny studio making gentle games starring Ohagi, a papillon-chihuahua mix, and her dog friends. Chiwa-Chiku RUN, Kuttsuki Chiwa Dango, Amiami Chiwa Osanpo, Chiwa, Stay!, HoeHoe ChiwaTai and Chiwa Hanko Kacho.",
         "title_html": "Little games<br>about little dogs.",
         "lead": "We make gentle games starring our own papillon-chihuahua mix, Ohagi, and her dog friends.\nMade one at a time, for dog lovers and for families playing together.",
-        "tags": ["Dogs first", "Rated 4+", "No accounts", "English / 日本語"],
+        "tags": ["Dogs first", "No dog gets hurt", "No accounts", "English / 日本語"],
         "cta": "See the games", "cta2": "Meet Ohagi",
         "kv_alt": "Ohagi in an apron, keeping a little Japanese sweet shop, with her dog friends visiting",
         "games_sub": "Ohagi and her friends appear in every one.",
@@ -665,7 +769,7 @@ HOME = {
         "promise_title": "Our promises",
         "promise_sub": "So that families and dog lovers can play with peace of mind.",
         "promises": [
-            {"t": "Safe to play", "d": "Every game is rated 4+ and needs no account. Chiwa-Chiku RUN is free with no ads or purchases. Games with ads never show them during play."},
+            {"t": "Safe to play", "d": "No game needs an account. Chiwa-Chiku RUN is free with no ads or purchases, and no game shows ads during play. Where a game has draws, the odds are shown before you draw, and players under 20 have a monthly spending limit."},
             {"t": "Kind to dogs", "d": "No dog is ever hurt. A dog that slips up is never scolded — it just looks a little sad, or grins. And please don't share the game's chikuwa with real dogs."},
             {"t": "No personal data", "d": "We never collect names or email addresses. See each game's privacy notes for details."},
             {"t": "Open about AI", "d": "AI helped with the dogs' 3D models (Meshy), some artwork (Google Gemini) and the code (Claude Code), all chosen and checked by the developer. The music is human-made."},
@@ -681,7 +785,7 @@ ABOUT = {
         "desc": "おはぎきなこ工房のモデル犬「おはぎ」と、ゲームの作り方、AI の使い方について。",
         "sections": [
             {"t": "おはぎ", "d": "工房のモデル犬。チワワとパピヨンのミックス（パピチワ）です。黒い頭に白い線、大きな飾り耳、くるんとした白いしっぽ。\n\nぬいぐるみハムスターの「ボンレス」と一緒におはぎの毎日を届ける YouTube「ボンレス・ハムスター ch」と TikTok は近日再開の予定です。"},
-            {"t": "おはぎきなこ工房", "d": "ひとりで犬のゲームを作っている小さな工房です。2026 年の秋に最初の作品「チワちくRUN」を出しました。\n\n届けたいのは犬と暮らしている人、犬が好きな人。それから、お子さんと一緒に遊ぶおうちの人。だから、犬が傷つく場面は作らず、遊んでいる最中に広告は出さず、個人情報は集めません。"},
+            {"t": "おはぎきなこ工房", "d": "ひとりで犬のゲームを作っている小さな工房です。2026 年の秋に最初の作品「チワちくRUN」を出しました。\n\n届けたいのは犬と暮らしている人、犬が好きな人。それから、お子さんと一緒に遊ぶおうちの人。だから、犬が傷つく場面は作らず、遊んでいる最中に広告は出さず、個人情報は集めません。ガチャのある作品では引く前に確率を見せ、全部そろえると特別なものが出るしくみは使いません。"},
             {"t": "作り方と AI", "d": "ゲームは Unity で作っています。\n\n犬の 3D モデルは Meshy、絵の一部は Google Gemini、プログラムと画面の文章は AI のコーディング支援（Claude Code）を使って作り、どれも作者が選び、調整して確かめています。遊んでいる間に AI が何かを作ることはありません。音楽と効果音は人が作った素材を使っています。\n\nこのサイトの和菓子屋の絵と前掛けをした犬たちの絵も Google Gemini で作り、作者が選びました。"},
             {"t": "動画・配信について", "d": "ゲームの実況・動画・配信は事前の連絡なしで自由にどうぞ（収益化も大丈夫です）。説明欄にゲームの名前とページのリンクを書いてもらえるとうれしいです。\n\nゲームから音楽・効果音・絵のデータを取り出して別の作品に使うことはご遠慮ください。"},
             {"t": "お問い合わせ", "d": "取材・お仕事のご相談は ohagikinakokobo@gmail.com まで。\nゲームの不具合やご意見は各ゲームの中のお問い合わせフォームからも送れます。"},
@@ -692,7 +796,7 @@ ABOUT = {
         "desc": "Meet Ohagi, the model dog of Ohagi Kinako Kobo, and learn how the games are made and how AI is used.",
         "sections": [
             {"t": "Ohagi", "d": "The studio's model dog, a papillon-chihuahua mix: black head with a white stripe, big feathered ears and a curly white tail.\n\nOur YouTube channel (\"Bonless Hamster ch\") and TikTok, with Ohagi's everyday life alongside Bonless the plush hamster, will be back soon."},
-            {"t": "Ohagi Kinako Kobo", "d": "A one-person studio making games about dogs. Our first game, Chiwa-Chiku RUN, came out in autumn 2026.\n\nWe make games for people who live with dogs and love dogs, and for families playing together. So no dog is ever hurt, no ads appear during play, and no personal information is collected."},
+            {"t": "Ohagi Kinako Kobo", "d": "A one-person studio making games about dogs. Our first game, Chiwa-Chiku RUN, came out in autumn 2026.\n\nWe make games for people who live with dogs and love dogs, and for families playing together. So no dog is ever hurt, no ads appear during play, and no personal information is collected. Where a game has draws, the odds are shown before you draw, and there are no complete-the-set prizes."},
             {"t": "How the games are made, and AI", "d": "The games are built with Unity.\n\nThe dogs' 3D models were made with Meshy, some artwork with Google Gemini, and the code and in-game text with an AI coding assistant (Claude Code). The developer chose, adjusted and checked all of it. No AI content is generated while you play. Music and sound effects are human-made assets.\n\nThe sweet-shop illustration and the dogs in aprons on this site were also made with Google Gemini and chosen by the developer."},
             {"t": "Videos and streaming", "d": "You're welcome to stream or make videos of our games without asking first, including monetised ones. Please put the game's name and a link to its page in the description.\n\nPlease don't extract the music, sound effects or artwork for use in other works."},
             {"t": "Contact", "d": "For press and business enquiries: ohagikinakokobo@gmail.com\nYou can also send bug reports and feedback from the contact form inside each game."},
