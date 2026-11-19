@@ -9,8 +9,8 @@ EMAIL = "ohagikinakokobo@gmail.com"
 SNS = [
     {"label": "X @bon_hamstar", "url": "https://x.com/bon_hamstar", "icon": "x"},
     {"label": "Instagram", "url": "https://www.instagram.com/bon_hamstar/", "icon": "instagram"},
-    {"label": "YouTube（近日再開）", "label_en": "YouTube (back soon)", "url": "https://www.youtube.com/@bon_hamstar", "icon": "youtube"},
-    {"label": "TikTok（近日再開）", "label_en": "TikTok (back soon)", "url": "https://www.tiktok.com/@bon_hamstar", "icon": "tiktok"},
+    {"label": "YouTube", "label_en": "YouTube", "url": "https://www.youtube.com/@bon_hamstar", "icon": "youtube"},
+    {"label": "TikTok", "label_en": "TikTok", "url": "https://www.tiktok.com/@bon_hamstar", "icon": "tiktok"},
     {"label": "note", "url": "https://note.com/ohagikinakokobo", "icon": "note"},
     {"label": "itch.io", "url": "https://ohagikinakokobo.itch.io/", "icon": "itch"},
 ]
@@ -784,7 +784,7 @@ ABOUT = {
         "title": "おはぎと工房のこと",
         "desc": "おはぎきなこ工房のモデル犬「おはぎ」と、ゲームの作り方、AI の使い方について。",
         "sections": [
-            {"t": "おはぎ", "d": "工房のモデル犬。チワワとパピヨンのミックス（パピチワ）です。黒い頭に白い線、大きな飾り耳、くるんとした白いしっぽ。\n\nぬいぐるみハムスターの「ボンレス」と一緒におはぎの毎日を届ける YouTube「ボンレス・ハムスター ch」と TikTok は近日再開の予定です。"},
+            {"t": "おはぎ", "d": "工房のモデル犬。チワワとパピヨンのミックス（パピチワ）です。黒い頭に白い線、大きな飾り耳、くるんとした白いしっぽ。\n\nぬいぐるみハムスターの「ボンレス」と一緒に過ごすおはぎの毎日を YouTube「ボンレス・ハムスター ch」と TikTok で届けています。"},
             {"t": "おはぎきなこ工房", "d": "ひとりで犬のゲームを作っている小さな工房です。2026 年の秋に最初の作品「チワちくRUN」を出しました。\n\n届けたいのは犬と暮らしている人、犬が好きな人。それから、お子さんと一緒に遊ぶおうちの人。だから、犬が傷つく場面は作らず、遊んでいる最中に広告は出さず、個人情報は集めません。ガチャのある作品では引く前に確率を見せ、全部そろえると特別なものが出るしくみは使いません。"},
             {"t": "作り方と AI", "d": "ゲームは Unity で作っています。\n\n犬の 3D モデルは Meshy、絵の一部は Google Gemini、プログラムと画面の文章は AI のコーディング支援（Claude Code）を使って作り、どれも作者が選び、調整して確かめています。遊んでいる間に AI が何かを作ることはありません。音楽と効果音は人が作った素材を使っています。\n\nこのサイトの和菓子屋の絵と前掛けをした犬たちの絵も Google Gemini で作り、作者が選びました。"},
             {"t": "動画・配信について", "d": "ゲームの実況・動画・配信は事前の連絡なしで自由にどうぞ（収益化も大丈夫です）。説明欄にゲームの名前とページのリンクを書いてもらえるとうれしいです。\n\nゲームから音楽・効果音・絵のデータを取り出して別の作品に使うことはご遠慮ください。"},
@@ -795,7 +795,7 @@ ABOUT = {
         "title": "About Ohagi and the studio",
         "desc": "Meet Ohagi, the model dog of Ohagi Kinako Kobo, and learn how the games are made and how AI is used.",
         "sections": [
-            {"t": "Ohagi", "d": "The studio's model dog, a papillon-chihuahua mix: black head with a white stripe, big feathered ears and a curly white tail.\n\nOur YouTube channel (\"Bonless Hamster ch\") and TikTok, with Ohagi's everyday life alongside Bonless the plush hamster, will be back soon."},
+            {"t": "Ohagi", "d": "The studio's model dog, a papillon-chihuahua mix: black head with a white stripe, big feathered ears and a curly white tail.\n\nOhagi's everyday life with Bonless the plush hamster is on our YouTube channel (\"Bonless Hamster ch\") and TikTok."},
             {"t": "Ohagi Kinako Kobo", "d": "A one-person studio making games about dogs. Our first game, Chiwa-Chiku RUN, came out in autumn 2026.\n\nWe make games for people who live with dogs and love dogs, and for families playing together. So no dog is ever hurt, no ads appear during play, and no personal information is collected. Where a game has draws, the odds are shown before you draw, and there are no complete-the-set prizes."},
             {"t": "How the games are made, and AI", "d": "The games are built with Unity.\n\nThe dogs' 3D models were made with Meshy, some artwork with Google Gemini, and the code and in-game text with an AI coding assistant (Claude Code). The developer chose, adjusted and checked all of it. No AI content is generated while you play. Music and sound effects are human-made assets.\n\nThe sweet-shop illustration and the dogs in aprons on this site were also made with Google Gemini and chosen by the developer."},
             {"t": "Videos and streaming", "d": "You're welcome to stream or make videos of our games without asking first, including monetised ones. Please put the game's name and a link to its page in the description.\n\nPlease don't extract the music, sound effects or artwork for use in other works."},
